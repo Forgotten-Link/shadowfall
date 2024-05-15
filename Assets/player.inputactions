@@ -1,0 +1,65 @@
+{
+    "name": "player",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "0f0ecb3f-762a-4d4d-a345-a202e3561266",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "a49b7232-2378-4e8c-95f7-fd205cc6f8c1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "21ee7bcc-d261-4561-b4b8-c2ac5b3a930a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9dfe9700-c586-4216-b96c-0e6a91113cf1",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fadae4fd-1802-4f71-8c9e-2c9069987486",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c93121be-af49-4c17-97a2-b2023ffd37c7",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

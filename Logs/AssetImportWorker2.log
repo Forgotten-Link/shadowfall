@@ -1,0 +1,456 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 64734 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/esque/wkspaces/PlatformerProject
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63743
+Successfully changed project path to: C:/Users/esque/wkspaces/PlatformerProject
+C:/Users/esque/wkspaces/PlatformerProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39832] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 1074575738 [EditorId] 1074575738 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JGU5L68) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [39832] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 1074575738 [EditorId] 1074575738 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JGU5L68) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 12.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/esque/wkspaces/PlatformerProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10053 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008403 seconds.
+- Loaded All Assemblies, in  0.515 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 770ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (206ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.823 seconds
+Refreshing native plugins compatible for Editor in 5.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (482ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (770ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (632ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 5.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4434 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (62.7 KB). Loaded Objects now: 4897.
+Memory consumption went from 157.4 MB to 157.3 MB.
+Total: 3.736300 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.067300 ms MarkObjects: 3.191700 ms  DeleteObjects: 0.129900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26786.077057 seconds.
+  path: Assets/Sprites/Imported/wizard/Lightning Mage/Run.png
+  artifactKey: Guid(f9e9bde826045724486d2ec0184fadea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/wizard/Lightning Mage/Run.png using Guid(f9e9bde826045724486d2ec0184fadea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c763218da19d306d1eda2fd919589cec') in 0.095237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Imported/wizard/Fire vizard/Run.png
+  artifactKey: Guid(c5785d34ed1c9884997fd568bc2e3e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/wizard/Fire vizard/Run.png using Guid(c5785d34ed1c9884997fd568bc2e3e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'deba10c47d020ce126fcbf20f44f12dd') in 0.029402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/2 Background/Day/3.png
+  artifactKey: Guid(7147a09e8a130ee479e1d190f682bd77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/2 Background/Day/3.png using Guid(7147a09e8a130ee479e1d190f682bd77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a7fb71fdd992a97972d01275393bdb1') in 0.023079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Imported/wizard/Wanderer Magican/Dead.png
+  artifactKey: Guid(c09533c1ababc2546a524e7e38606598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/wizard/Wanderer Magican/Dead.png using Guid(c09533c1ababc2546a524e7e38606598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ab1ad292675606424fc041840b72d02') in 0.020859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Imported/Power Station/1 Tiles/Tile_50.png
+  artifactKey: Guid(b37eeae613eaa1741a6d3a7269e41e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/1 Tiles/Tile_50.png using Guid(b37eeae613eaa1741a6d3a7269e41e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '362cdd81ce3cd70600c44392aac9a5ce') in 0.023768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Imported/wizard/Fire vizard/Walk.png
+  artifactKey: Guid(3053220163af1b0459f9143856211e19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/wizard/Fire vizard/Walk.png using Guid(3053220163af1b0459f9143856211e19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca6a18331ebae4f71737ba84caece817') in 0.031003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Imported/wizard/Wanderer Magican/Charge_2.png
+  artifactKey: Guid(b6586b7d1d9c8cc4087057564efd5734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/wizard/Wanderer Magican/Charge_2.png using Guid(b6586b7d1d9c8cc4087057564efd5734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92b4319c17c8c7caf33db2ddf0c9384d') in 0.021426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Tileset_67.asset
+  artifactKey: Guid(93c5cf1479613be448525f1789d1b23a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiles/Tileset_67.asset using Guid(93c5cf1479613be448525f1789d1b23a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c32aa2ced7da153963d6a90f3b9b01b4') in 0.018530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/1 Tiles/Tile_60.png
+  artifactKey: Guid(2055fa5ce9c458b4b85db79deac61d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/1 Tiles/Tile_60.png using Guid(2055fa5ce9c458b4b85db79deac61d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29d885ff00fe010a0f3b1ba6c32c30be') in 0.020304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Imported/wizard/Lightning Mage/Jump.png
+  artifactKey: Guid(0419db2c543e1104693c7118b2c58323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/wizard/Lightning Mage/Jump.png using Guid(0419db2c543e1104693c7118b2c58323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b61afb58a20d773e4925cd4c8e5ac3e') in 0.021890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.088331 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/2 Background/Day/5.png
+  artifactKey: Guid(f33aa2bc70e527549a22117f5fc206d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/2 Background/Day/5.png using Guid(f33aa2bc70e527549a22117f5fc206d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0723dff66db2281b6bed71a0923c998e') in 0.023546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Imported/Power Station/2 Background/Night/3.png
+  artifactKey: Guid(efeac2c49acf4c642958fc4c8a2e276d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/2 Background/Night/3.png using Guid(efeac2c49acf4c642958fc4c8a2e276d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5e4fc4a93338a56a2a5e21148e62f6d') in 0.022989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Imported/Power Station/2 Background/Day/4.png
+  artifactKey: Guid(4a37d3b6a0393844587a9442b25784a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/2 Background/Day/4.png using Guid(4a37d3b6a0393844587a9442b25784a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d217c22c6505f5cc1a9594972d48234') in 0.022208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/3 Objects/Grass/4.png
+  artifactKey: Guid(998673efb507ac34f91af710087af89f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/3 Objects/Grass/4.png using Guid(998673efb507ac34f91af710087af89f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88de78f0edcfd0aef58d521808694eeb') in 0.023580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/21.png
+  artifactKey: Guid(af3ba85789c718945a78819ff2fb5885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/21.png using Guid(af3ba85789c718945a78819ff2fb5885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6a660610d864d538ad9e12d291112fc') in 0.022148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Imported/Power Station/3 Objects/1 Tube/10.png
+  artifactKey: Guid(3293e0e55a7a0c2468fbf2a52ae54c4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/3 Objects/1 Tube/10.png using Guid(3293e0e55a7a0c2468fbf2a52ae54c4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9184ae7b7e1a28dc30addff47ada2839') in 0.021338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/3 Objects/Trees/4.png
+  artifactKey: Guid(dbfca4ae1d819494d877dc7c2c309dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/3 Objects/Trees/4.png using Guid(dbfca4ae1d819494d877dc7c2c309dcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffbe84153979784e653f71e1b9c66e63') in 0.022698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/15.png
+  artifactKey: Guid(00d873713cc3de74d9b796967f276547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/15.png using Guid(00d873713cc3de74d9b796967f276547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '307914727c05a8b7b9fbebf09dcac0e7') in 0.023606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/3 Objects/Grass/17.png
+  artifactKey: Guid(532d42abda6515347979368deca0dec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/3 Objects/Grass/17.png using Guid(532d42abda6515347979368deca0dec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '831d137c344faa89ebfa146a1bc2fb1a') in 0.023124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/3 Objects/Stones/3.png
+  artifactKey: Guid(aad018810cdb0e94fbbe225ff2e0166d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/3 Objects/Stones/3.png using Guid(aad018810cdb0e94fbbe225ff2e0166d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d9715129269ef7173f82a7d20a79778') in 0.021606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/3 Objects/Grass/10.png
+  artifactKey: Guid(32f93645cb5e67a4789c2f3a017828c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/3 Objects/Grass/10.png using Guid(32f93645cb5e67a4789c2f3a017828c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08b5c110a1a63be7250e056f8a9fbc50') in 0.021203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Imported/Power Station/3 Objects/1 Tube/11.png
+  artifactKey: Guid(460eb85232b63c94a9e03ad832333f2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/3 Objects/1 Tube/11.png using Guid(460eb85232b63c94a9e03ad832333f2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89d6c5a2b095de9e86cd8e1a708a2c49') in 0.022343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/17.png
+  artifactKey: Guid(8193fc22ede28804aafe130bb1e09468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/17.png using Guid(8193fc22ede28804aafe130bb1e09468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddae1db678c98c69d671b0d3f1fad5c2') in 0.022287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/3 Objects/Trees/7.png
+  artifactKey: Guid(e52253a97e6cf204c93bb25c57ad857f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/3 Objects/Trees/7.png using Guid(e52253a97e6cf204c93bb25c57ad857f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04e1e1d7e12cbb2da332d1c3e0253570') in 0.020336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/13.png
+  artifactKey: Guid(ed843a7a78be2374eb82f5c7fce685a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/13.png using Guid(ed843a7a78be2374eb82f5c7fce685a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5de9e5babdd7e314b74599a26d800900') in 0.023291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Imported/exclusion zone/3 Objects/Trees/18.png
+  artifactKey: Guid(b450733b45ef65b42aa39531d3819573) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/exclusion zone/3 Objects/Trees/18.png using Guid(b450733b45ef65b42aa39531d3819573) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41be56858de9cf6b3fa9a9b09ffae8fb') in 0.020674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Imported/Power Station/2 Background/Night/4.png
+  artifactKey: Guid(a33975bf67cda1246b85028231e8239d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/2 Background/Night/4.png using Guid(a33975bf67cda1246b85028231e8239d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b70f9caa0b8268d0597a40fbc00b56c2') in 0.021191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.115735 seconds.
+  path: Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/26.png
+  artifactKey: Guid(738340e156c707843a83661dcf4b5c49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/26.png using Guid(738340e156c707843a83661dcf4b5c49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8265031d7b944eb035e02c26176ac920') in 0.022460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/7.png
+  artifactKey: Guid(fbbd08ec2261818469d3861f85b92f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/3 Objects/2 Decoration/7.png using Guid(fbbd08ec2261818469d3861f85b92f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf2c329b793cb9117797dc8e7ecb5ff1') in 0.022848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Imported/Power Station/3 Objects/3 Power lines/3.png
+  artifactKey: Guid(4c9e4f5faf6b55a4eacc7fb2f8b262fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Imported/Power Station/3 Objects/3 Power lines/3.png using Guid(4c9e4f5faf6b55a4eacc7fb2f8b262fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c85ff267ae14a87af55763d96c7fc5c') in 0.021422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
